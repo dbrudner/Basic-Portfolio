@@ -40,20 +40,20 @@ nav {
 
 #name {
 	background-color: #4aaaa5;
-	margin-left: 10%;
+	margin-left: 50px;
 	color: white;
 	float: left;
 	height: 70px;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #container {
 	float:left;
 	width: 60%;
-	margin: 3% 0 8% 10%;
+	margin: 50px 0px 150px 50px;
 	padding: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 #about-heading {
@@ -208,20 +208,19 @@ h5 {
 
 .float-left {
 	float: left;
-	margin-left: 11.5%;
+	margin: 10px;
+	margin-left: 19px;
 	text-decoration: none;
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-.margin-left {
-	margin-left: 3%;
-}
-
 .row > a {
+	
 	color: white;
 	text-align: center;
 }
+
 .project-header {
 	height: 20px;
 	padding: 20px;
@@ -240,8 +239,4 @@ h5 {
 	height: 250px;
 	width: 365px;
 	margin-bottom: 20px;
-}
-
-.border-img {
-	border: 5px solid black;
 }
