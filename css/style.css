@@ -44,7 +44,7 @@ nav {
 	padding-right: 20px;
 }
 
-#about {
+#container {
 	float:left;
 	width: 60%;
 	margin: 50px 0px 50px 50px;
@@ -52,7 +52,7 @@ nav {
 }
 
 #about-heading {
-	border-bottom-color: #777777;
+	border-bottom-color: #dddddd;
 	border-bottom-style: solid;
 	border-bottom-size: 1px;
 	padding-bottom: 40px;
@@ -62,12 +62,23 @@ nav {
 #about-img {
 	float: left;
 	margin: 20px;
+	margin-right: 40px;
 }
 
 #about-text {
 	color: #777777;
 	font-size: 26px;
-	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;*/
+	padding-left: 20px;
+	padding-top: 17px;
+}
+
+label {
+	color: #777777;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 17px;
+	margin: 0px;
+	padding: 0px;	
 }
 
 #connect {
@@ -87,10 +98,10 @@ nav {
 }
 
 .border-nav {
-	border-left-color: #777777;
+	border-left-color: #dddddd;
 	border-left-style: solid;
 	border-left-size: 1px;
-	border-right-color: #777777;
+	border-right-color: #dddddd;
 	border-right-style: solid;
 	border-right-size: 1px;
 }
@@ -124,10 +135,22 @@ nav {
 
 #name-input {
 	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	font-size: 24px;
 }
 
 #email-input {
 	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 30px;
+	font-size: 24px;
+}
+
+form {
+	margin: 10px;
 }
 
 #message-input {
@@ -140,7 +163,21 @@ h5 {
 }
 
 .bottom-border {
-	border-bottom-color: #777777;
+	border-bottom-color: #dddddd;
 	border-bottom-style: solid;
 	border-bottom-size: .5px;
+}
+
+.border {
+	border-color: #dddddd;
+	border-style: solid;
+	border-size: .5px;	
+}
+
+.btn {
+	background-color: #4aaaa5;
+	color: white;
+	height: 30px;
+	width: 100px;
+	margin-top: 20px;
 }
