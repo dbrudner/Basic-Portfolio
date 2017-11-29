@@ -53,7 +53,7 @@ nav {
 	width: 60%;
 	margin: 50px 0px 150px 50px;
 	padding: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 #about-heading {
@@ -105,10 +105,10 @@ label {
 .border-nav {
 	border-left-color: #dddddd;
 	border-left-style: solid;
-	border-left-size: 1px;
+	border-left-width: 1px;
 	border-right-color: #dddddd;
 	border-right-style: solid;
-	border-right-size: 1px;
+	border-right-width: 1px;
 }
 
 .nav-item {
@@ -194,7 +194,8 @@ h5 {
 	border-top-color: #4aaaa5;
 	border-style: solid;
 	border-size: 1px;
-	height: 70px;	
+	height: 70px;
+	z-index: 1000;
 }
 
 /*fixed footer*/
@@ -210,12 +211,34 @@ h5 {
 .float-left {
 	float: left;
 	margin: 10px;
-	margin-left: 22px;
+	margin-left: 19px;
 	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .row > a {
-	background-color: #4aaaa5;
+	
 	color: white;
 	text-align: center;
+}
+
+.project-header {
+	height: 20px;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	z-index: 5;
+	background-color: #4aaaa5;
+
+}
+
+.cf:after {
+    clear: both;
+}
+
+.img-size {
+	height: 250px;
+	width: 365px;
+	margin-bottom: 20px;
 }
