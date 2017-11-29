@@ -127,13 +127,6 @@ label {
 	padding-right: 0px;
 }
 
-#footer {
-	width: 100%;
-	position: fixed;
-	height: 100px;
-	background-color: black;
-}
-
 #linkedin {
 	margin-left: 15px;
 	margin-right: 15px;
@@ -188,14 +181,19 @@ h5 {
 	margin-top: 20px;
 }
 
+/*stick footer*/
 #footer {
 	position: fixed;
 	bottom: 0;
 	border-top-color: #4aaaa5;
 	border-style: solid;
 	border-size: 1px;
-	height: 70px;
+	height: 50px;
 	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	padding-top: 30px;
 }
 
 /*fixed footer*/
@@ -227,7 +225,7 @@ h5 {
 	height: 20px;
 	padding: 20px;
 	position: relative;
-	bottom: 100px;
+	bottom: 80px;
 	z-index: 5;
 	background-color: #4aaaa5;
 
